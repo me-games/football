@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@dimforge/rapier3d-compat": "^0.19.3",
-    "@genex-ai/multiplayer": "^0.2.6",
+    "@genex-ai/multiplayer": "^0.10.0",
     "three": "0.185.0"
   }
 }

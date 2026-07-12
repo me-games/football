@@ -201,7 +201,7 @@ async function start() {
   statusEl.textContent = 'Joining online match...'
 
   room = await connect<PlayerSync>({
-    url: GENEX.colyseusUrl,
+    urls: [GENEX.colyseusUrl],
     room: GENEX.slug,
     name: localPlayer.name,
   })
